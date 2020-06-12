@@ -22,6 +22,7 @@ public class StrategypatternApplication {
         mallardDuck.quack();
         mallardDuck.swim();
         mallardDuck.display();
+        mallardDuck.fly();
 
         System.out.println("Red Duck Behaviors");
 
@@ -29,6 +30,7 @@ public class StrategypatternApplication {
         redDuck.quack();
         redDuck.swim();
         redDuck.display();
+        redDuck.fly();
 
         System.out.println("Rubber Duckk Behaviors");
 
@@ -36,6 +38,9 @@ public class StrategypatternApplication {
         rubberDuck.display();
         rubberDuck.quack();
         rubberDuck.swim();
+        rubberDuck.fly();
+
+        System.out.println("But Rubber Ducks Should Fly!!!!!!!!!!!!!");
     }
 
 }
